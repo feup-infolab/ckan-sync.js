@@ -4,6 +4,7 @@ const mime = require("mime-types");
 const fs = require("fs");
 const slugify = require("slugify");
 const path = require("path");
+const request = require("request");
 
 /**
  * Initiates the ckanSyncClient
@@ -409,3 +410,4 @@ CkanSyncClient.prototype.upload_file_into_package = function(
     });
 };
 
+module.exports = CkanSyncClient;
