@@ -1,0 +1,25 @@
+{
+  "name": "ckan-sync",
+  "version": "1.0.0",
+  "description": "A npm module developed to keep CKan datasets in external systems synchronised with its ckan-deposited counterparts. This, of course, includes batch upload of files to keep both data and metadata synchronised.",
+  "main": "ckan-sync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feup-infolab/ckan-sync.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feup-infolab/ckan-sync.js/issues"
+  },
+  "homepage": "https://github.com/feup-infolab/ckan-sync.js#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "ckan": "^0.2.3",
+    "mime-types": "^2.1.17",
+    "slugify": "^1.2.1"
+  }
+}
