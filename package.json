@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/feup-infolab/ckan-sync.js#readme",
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^2.6.0",
     "ckan": "^0.2.3",
     "mime-types": "^2.1.17",
     "slugify": "^1.2.1"
